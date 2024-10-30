@@ -1,0 +1,507 @@
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+    font-family: "Open Sans", sans-serif !important;
+}
+.hubbed-customcssrow{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hubbed-customcss,.hubbed-customimage  {
+    width: 50%;
+}
+p.hubbed-code-title {
+    padding: 10px;
+    background: #e6e6e6;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.white-background {
+    background-color: #fff;
+    -webkit-box-shadow: 2px 2px 6px #00000024;
+    box-shadow: 2px 2px 6px #00000024;
+}
+.hubbed-tab-content .settings-notes {
+    font-size: 13px;
+    color: #6d6d6d;
+    margin-top: 6px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.hubbed-header-tab {
+    background-color: #e6e6e6;
+    padding: 10px 15px;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: inline-block;
+    width: 100%;
+    -webkit-box-shadow: 0 0 10px #00000015;
+    box-shadow: 0 0 10px #00000015;
+}
+.hubbed-header-tab .hubbed-logo-part {
+    float: left;
+}
+@media (max-width: 567px) {
+    .hubbed-header-tab .hubbed-logo-part {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+.hubbed-header-tab .hubbed-nav {
+    float: right;
+}
+@media (max-width: 567px) {
+    .hubbed-header-tab .hubbed-nav {
+        width: 100%;
+        text-align: center;
+    }
+}
+.hubbed-header-tab .hubbed-nav ul {
+    padding: 0;
+}
+.hubbed-header-tab .hubbed-nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 10px;
+    outline: 0px !important;
+}
+.hubbed-header-tab .hubbed-nav ul li a {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    box-shadow:none !important; 
+}
+.hubbed-header-tab .hubbed-nav ul li a:hover {
+    color: #000;
+}
+.hubbed-tab-content {
+    margin: 15px;
+}
+.hubbed-section-title {
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    padding: 15px;
+    background-color: #e6e6e6;
+    text-align: left;
+}
+.key-tab {
+    border-radius: 0;
+    padding: 40px;
+    text-align: center;
+    max-width:100%;
+    margin:35px auto;
+}
+@media (max-width: 767px) {
+    .key-tab {
+        padding: 25px;
+        margin: 35px auto;
+    }
+}
+
+
+/**/
+.key-tab .setting-section-row{
+    border: 1px solid #e6e6e6;
+}
+.key-tab  .field-main {
+    padding: 20px;
+}
+
+/**/
+
+.key-tab .hubbed-logo-key-tab {
+    text-align: center;
+    margin-bottom:20px;
+}
+.key-tab .hubbed-key-label {
+    font-size: 16px;
+    font-weight:500;
+    letter-spacing: 0;
+    margin-right: 0;
+    margin-bottom: 0px;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif !important;
+    width: 100%;
+    text-align: right;
+    padding: 10px 0px;
+}
+
+@media (max-width:767px) {
+    .key-tab .hubbed-key-label {
+       text-align: left;
+    }
+}
+
+.key-tab .hubbed-field-width{
+    max-width: 60%;
+}
+
+@media (max-width:1199px) {
+    .key-tab .hubbed-field-width{
+       max-width: 80%;
+    }
+}
+@media (max-width:767px) {
+    .key-tab .hubbed-field-width{
+       max-width: 100%;
+    }
+}
+
+.key-tab .hubbed-field {
+    border: 1px solid #000;
+    display: block;
+    margin: 0;
+    width: 100%;
+    outline: 0;
+    padding: 12px 15px 12px 15px;
+    font-size: 14px;
+    color: #000;
+    -webkit-box-shadow: 0 5px 13px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 13px rgba(0, 0, 0, 0.08);
+    font-family: "Open Sans", sans-serif !important;
+    margin-bottom: 10px;
+    max-height: 45px;
+    line-height: normal;
+    height: 45px;
+    border-radius: 0;
+    max-width:100%;
+    outline: 0px !important;
+}
+.key-tab .hubbed-field:focus,
+.key-tab .hubbed-field:hover {
+    border-color: #000;
+    outline: 0 !important;
+    box-shadow: 0 5px 13px rgba(0, 0, 0, 0.08);
+}
+.key-tab .hubbed-field::-webkit-input-placeholder {
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    font-size: 14px;
+}
+.key-tab .hubbed-field:-ms-input-placeholder {
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    font-size: 14px;
+}
+.key-tab .hubbed-field::-ms-input-placeholder {
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    font-size: 14px;
+}
+.key-tab .hubbed-field::placeholder {
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    font-size: 14px;
+}
+.api-key-part .submit {
+    margin: 0;
+    padding: 0;
+}
+.key-tab .hubbed-submit {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 13px 25px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    /*
+    background: -webkit-gradient(linear, left top, right top, from(#000), to(#000));
+    background: -webkit-linear-gradient(left, #000, #000);
+    background: -o-linear-gradient(left, #000, #000);
+    background: linear-gradient(to right, #000, #000);
+    */
+    background: #000;
+    font-family: "Open Sans", sans-serif !important;
+    margin: 0 auto;
+    display: block;
+    height: 45px !important;
+    border-radius: 0;
+    line-height: normal !important;
+    outline: 0 !important;
+}
+.key-tab .hubbed-submit:hover {
+    background: #000;
+    color: #fff;
+}
+.key-tab .hubbed-submit:focus {
+    background: #000;
+    color: #fff;
+}
+.key-tab .setting-instructions-part {
+    margin-top: 30px;
+    text-align: left;
+}
+.setting-instructions-part h4 {
+    margin: 0;
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+.key-tab .setting-instructions-part ol {
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+.key-tab .setting-instructions-part ol li {
+    font-family: "Open Sans", sans-serif !important;
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.key-tab .hubbed-select-part {
+    position: relative;
+}
+.key-tab .hubbed-select-part:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 10px solid #000;
+    position: absolute;
+    top: 20px;
+    right: 8px;
+}
+.key-tab .hubbed-select-part .hubbed-select {
+    border: 2px solid #000;
+    display: block;
+    margin: 0;
+    width: 100%;
+    outline: 0;
+    padding: 12px 15px 12px 15px;
+    font-size: 14px;
+    color: #000;
+    -webkit-box-shadow: 0 5px 13px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 13px rgba(0, 0, 0, 0.08);
+    font-family: "Open Sans", sans-serif !important;
+    margin-bottom: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    max-width: 100%;
+    max-height: 45px;
+    height: auto !important;
+    line-height: normal !important;
+    height: 45px;
+    border-radius: 0;
+    outline: 0 !important;
+}
+.key-tab .hubbed-select-part .hubbed-select:hover {
+    border-color: #000 !important;
+    color: #000 !important;
+}
+.key-tab .hubbed-select-part .hubbed-select:focus {
+    border-color: #000 !important;
+    color: #000 !important;
+}
+.key-tab .hubbed-select-part .hubbed-select::-webkit-input-placeholder {
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    font-size: 14px;
+}
+.key-tab .hubbed-select-part .hubbed-select:-ms-input-placeholder {
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    font-size: 14px;
+}
+.key-tab .hubbed-select-part .hubbed-select::-ms-input-placeholder {
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    font-size: 14px;
+}
+.key-tab .hubbed-select-part .hubbed-select::placeholder {
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    font-size: 14px;
+}
+.how-to-install {
+    padding: 40px;
+}
+@media (max-width: 767px) {
+    .how-to-install {
+        padding: 20px;
+    }
+}
+
+
+
+/*plan-detail*/
+.hubbed-plan-content {
+	background-color: #fff;
+	-webkit-box-shadow: 2px 2px 6px #00000024;
+	box-shadow: 2px 2px 6px #00000024;
+	padding: 40px;
+}
+.hubbed_plan_detail {
+    border: 1px solid #b5b5b5;
+}
+.hubbed_plan_detail table tr td {
+    padding: 10px 15px;
+}
+.hubbed_plan_detail table tr {
+    border-bottom: 1px solid #f69522;
+}
+.hubbed_plan_detail {
+    border: 1px solid #e6e6e6;
+}
+.hubbed_plan_detail_heading {
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    padding: 15px;
+    background-color: #e6e6e6;
+}
+.hubbed_plan_detail table {
+    width: 100%;
+}
+.hubbed_plan_detail table tr {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+@media (max-width:767px) {
+   .hubbed-plan-content {padding: 20px;}
+}
+
+@media (max-width:567px) {
+   .hubbed_plan_detail{overflow: auto;}
+   .hubbed_plan_detail_heading{min-width: 500px;}
+   .hubbed_plan_detail table {min-width: 500px;}
+}
+/*plan-detail*/
+
+
+/*order-page*/
+#hubbed_order_list_table_wrapper {
+    background-color: #fff;
+    -webkit-box-shadow: 2px 2px 6px #00000024;
+    box-shadow: 2px 2px 6px #00000024;
+    padding: 40px;
+    margin: 30px 15px 2px;
+}
+table.dataTable{margin: 54px 0 15px 0 !important;}
+table.dataTable.no-footer {
+    border: 1px solid #e6e6e6 !important;
+}
+table.dataTable thead th, table.dataTable thead td{
+	padding: 10px 10px !important;
+    color: #000000;
+    border-bottom: 1px solid #e6e6e6 !important;
+    background-color: #e6e6e6;
+}
+table.dataTable tbody tr td {
+    border-bottom: 1px solid #e6e6e6 !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    border: 0px !important;
+    background: #e6e6e6 !important;
+}
+.dataTable tbody td a {
+    text-decoration: underline;
+    color: #000;
+}
+/*order-page*/
+
+
+.how-to-install .hubbed-main-heading {
+    border-bottom: 1px solid #000;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 100%;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 0;
+    font-family: "Open Sans", sans-serif !important;
+    line-height: normal !important;
+}
+.how-to-install .hubbed-secound-heading {
+    margin: 15px 0;
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+}
+.how-to-install .hubbed-sub-sub-heading {
+    margin: 15px 0 6px 0;
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+}
+.how-to-install .hubbed-images {
+    margin-bottom: 10px;
+    border: 2px solid #e6e6e6;;
+    max-width: 100%;
+    padding: 15px;
+}
+.how-to-install p {
+    font-size: 14px;
+    margin-top: 0;
+    font-family: "Open Sans", sans-serif !important;
+    color: #000;
+    margin-bottom: 10px;
+}
+.how-to-install ul {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.how-to-install ul li {
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif !important;
+    color: #000;
+}
+ul {
+    padding-left: 15px;
+}
+span#hubbed_position_selected_info {
+    margin-bottom: 15px;
+    display: inline-block;
+    color: #000;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 600;
+}
+label#hubbed-error-label {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin-right: 0;
+    margin-bottom: 15px;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif !important;
+    color: red;
+}
+#hubbedAdminErrMsg {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 18px;
+    color: red;
+    letter-spacing: 0.3px;
+    margin: 8px 0 0 0;
+    padding: 0 0;
+}
+.section-mt {
+    margin-top: 45px;
+}
+.hubbed-tab-content h3 {
+    font-size: 20px;
+}
